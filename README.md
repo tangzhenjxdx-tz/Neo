@@ -94,7 +94,7 @@ FAIL examples/bad/readonly-writes.md
 
 格式规则的每一条都能在 OpenMausBot 的 `shared/package-format.ts` 里找到对应约束（截至 commit `c7e50aa`）。设计规则来自反复踩坑：一个 bot 只有一件事、写清绝不做什么、能用一句话判断成没成。
 
-`examples/good/` 里是七个真的能用的 bot（工作日晨报、邮件分诊、仓库值班……），`examples/bad/` 里是四个各错一处的反面教材。测试拿它们当输入跑，规则改了先跑测试。
+`examples/good/` 里是七个通过检查的 bot（工作日晨报、邮件分诊、仓库值班……），`examples/bad/` 里是四个各错一处的反面教材。测试拿它们当输入跑，规则改了先跑测试。
 
 ## 开发
 
