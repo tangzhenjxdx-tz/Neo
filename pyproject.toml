@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neo-botcheck"
+version = "0.1.0"
+description = "Check OpenMausBot botmrr packages before you import them."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "Apache-2.0" }
+dependencies = ["pyyaml>=6.0"]
+authors = [{ name = "neo contributors" }]
+
+[project.scripts]
+neo = "neo.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

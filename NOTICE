@@ -1,9 +1,8 @@
 Neo
 Copyright 2026 唐震
 
-This product includes a configuration file format defined by OpenMausBot
-(https://github.com/milind-soni/OpenMausBot), licensed under the
-Apache License, Version 2.0.
+本项目的格式检查规则参照 OpenMausBot（https://github.com/milind-soni/OpenMausBot）
+的 botmrr 包格式写成，该项目的许可为 Apache License 2.0。
 
-The bot definitions in this repository are original text written for that
-format. They do not contain OpenMausBot source code.
+本仓库不包含 OpenMausBot 的源代码；规则依据的是它的公开格式定义
+（shared/package-format.ts、shared/wire.ts），并按其文档描述的约束重写。
