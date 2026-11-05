@@ -1,5 +1,7 @@
 # Neo
 
+[![ci](https://github.com/tangzhenjxdx-tz/Neo/actions/workflows/ci.yml/badge.svg)](https://github.com/tangzhenjxdx-tz/Neo/actions/workflows/ci.yml)
+
 **导入之前，先把 bot 检查一遍。**
 
 OpenMausBot 的 bot 是一个 `botmrr: 1` 的 Markdown 文件。能导入，不代表能用：大部分 bot 没写「绝不」，没写「什么算完」，要的权限比干的活还多。等你发现它在乱发消息，已经喂了一周的错输出。
